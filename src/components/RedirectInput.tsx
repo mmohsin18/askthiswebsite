@@ -7,7 +7,7 @@ const RedirectInput: React.FC = () => {
   const handleRedirect = () => {
     if (url) {
       const validUrl = url.startsWith("http://") || url.startsWith("https://") ? url : `https://${url}`;
-      window.location.href = "https://askthiswebsite-rho.vercel.app/" + validUrl;
+      window.location.href = "https://askanywebsite.vercel.app/" + validUrl;
     }
   };
 
